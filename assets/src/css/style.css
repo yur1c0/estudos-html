@@ -1,0 +1,10 @@
+* {
+    background-color: black;
+}
+
+h1 {
+    font-style: oblique;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
