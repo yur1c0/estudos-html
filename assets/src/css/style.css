@@ -1,6 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: black;
+    height: 2000px;
+    margin: 20px;
 }
+
 header{
     background-color: grey;
     text-align: center;
