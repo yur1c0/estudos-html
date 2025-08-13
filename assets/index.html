@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="icon" href="src/image/ns-logo.png" type="image/png">
+  <meta charset="UTF-8">
+  <title>Scroll Suave</title>
+  <style>
+    body {
+      height: 2000px; /* Só para criar uma rolagem */
+      padding: 20px;
+    }
+
+    html {
+      scroll-behavior: smooth; /* Também funciona com links com href="#algum-id" */
+    }
+
+    .voltar-topo {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      padding: 10px 20px;
+      background-color: #ac0000;
+      color: white;
+      border: navajowhite;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-    <p class="paragraph">OI</p>
-    <p class="paragraph">OI</p>
-    <p class="paragraph">OI</p>
-    <p id="lucas">teste</p>
+  <input type="email" placeholder="Digite aqui">
+  <textarea placeholder="Sua mensagem"></textarea>
+  <button class="voltar-topo" onclick="voltarAoTopo()">⬆ Voltar ao topo</button>
+
+  <script>
+    function voltarAoTopo() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    }
+  </script>
 </body>
 </html>
