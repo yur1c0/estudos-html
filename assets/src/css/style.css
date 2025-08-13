@@ -1,13 +1,53 @@
-.paragraph{
+body{
     background-color: black;
-    color: rgb(255, 255, 255);
-    padding: 5px;
+}
+header{
+    background-color: grey;
+    text-align: center;
+    color: white;;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-#lucas{
-    background-color: black;
+.dados{
+    background-color: grey;
     color: white;
-    font-size: larger;
-    font-style: oblique;
-    padding: 5px;
+    margin: 40px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.dados:hover{
+    background-color: rgb(68,68,68);
+}
+p, h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Iniciar{
+    background-color: grey;
+    padding: 30px;
+    margin: 25px;
+    border-radius: 15px;
+}
+.Iniciar:hover{
+    background-color: rgb(68, 68, 68);
+}
+
+h1  {
+    color:white;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer:hover{
+    background-color: grey;
 }
